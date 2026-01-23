@@ -31,34 +31,34 @@
 
 <style>
   .hero-gradient {
-    background: linear-gradient(135deg, #7C3AED 0%, #EC4899 50%, #F97316 100%);
+    background: linear-gradient(135deg, #2563EB 0%, #0EA5E9 50%, #06B6D4 100%);
   }
   
   .card-gradient-1 {
-    background: linear-gradient(135deg, #A78BFA 0%, #EC4899 100%);
+    background: linear-gradient(135deg, #60A5FA 0%, #0EA5E9 100%);
   }
   
   .card-gradient-2 {
-    background: linear-gradient(135deg, #06B6D4 0%, #10B981 100%);
+    background: linear-gradient(135deg, #06B6D4 0%, #14B8A6 100%);
   }
   
   .card-gradient-3 {
-    background: linear-gradient(135deg, #F97316 0%, #EC4899 100%);
+    background: linear-gradient(135deg, #4F46E5 0%, #2563EB 100%);
   }
 
   .text-gradient {
-    background: linear-gradient(135deg, #7C3AED 0%, #EC4899 50%, #F97316 100%);
+    background: linear-gradient(135deg, #2563EB 0%, #0EA5E9 50%, #06B6D4 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
-  .glow-purple {
-    box-shadow: 0 0 60px rgba(124, 58, 237, 0.3);
+  .glow-blue {
+    box-shadow: 0 0 60px rgba(37, 99, 235, 0.3);
   }
 
-  .glow-pink {
-    box-shadow: 0 0 60px rgba(236, 72, 153, 0.3);
+  .glow-cyan {
+    box-shadow: 0 0 60px rgba(6, 182, 212, 0.3);
   }
 </style>
 
@@ -69,14 +69,14 @@
   <main class="w-full pt-32 md:pt-40 pb-20 px-4 relative overflow-hidden">
     <!-- Gradient Background Orbs -->
     <div class="absolute top-0 right-0 w-[600px] h-[600px] rounded-full hero-gradient opacity-20 blur-3xl"></div>
-    <div class="absolute bottom-0 left-0 w-[500px] h-[500px] rounded-full bg-gradient-to-br from-purple-500 to-pink-500 opacity-15 blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-[500px] h-[500px] rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 opacity-15 blur-3xl"></div>
     
     <div class="max-w-7xl mx-auto relative z-10">
       <div class="text-center mb-16">
         <!-- Badge -->
-        <div class="inline-flex items-center gap-2 bg-purple-50 border border-purple-200 rounded-full px-4 py-2 mb-8">
-          <span class="w-2 h-2 rounded-full bg-purple-500 animate-pulse"></span>
-          <span class="text-sm font-semibold text-purple-700">Trusted by Harvard, Stanford, Wharton students</span>
+        <div class="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 rounded-full px-4 py-2 mb-8">
+          <span class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
+          <span class="text-sm font-semibold text-blue-700">Trusted by Harvard, Stanford, Wharton students</span>
         </div>
         
         <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 leading-[1.1]">
@@ -90,11 +90,11 @@
         
         <!-- CTA Buttons -->
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
-          <a href="#" class="group relative inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full font-bold text-lg transition-all hover:scale-105 hover:shadow-2xl glow-purple">
+          <a href="#" class="group relative inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-8 py-4 rounded-full font-bold text-lg transition-all hover:scale-105 hover:shadow-2xl glow-blue">
             Start practicing free
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="group-hover:translate-x-1 transition-transform"><path d="m9 18 6-6-6-6"/></svg>
           </a>
-          <a href="#" class="inline-flex items-center gap-2 bg-white border-2 border-gray-200 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition-all hover:border-purple-300 hover:bg-purple-50">
+          <a href="#" class="inline-flex items-center gap-2 bg-white border-2 border-gray-200 text-gray-900 px-8 py-4 rounded-full font-bold text-lg transition-all hover:border-blue-300 hover:bg-blue-50">
             View pricing
           </a>
         </div>
@@ -103,7 +103,7 @@
       <!-- Hero Cards -->
       <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
         <!-- Card 1 -->
-        <div class="card-gradient-1 rounded-3xl p-8 text-white transform hover:scale-105 transition-all glow-purple">
+        <div class="card-gradient-1 rounded-3xl p-8 text-white transform hover:scale-105 transition-all glow-blue">
           <div class="w-12 h-12 bg-white/20 rounded-2xl flex items-center justify-center mb-6 backdrop-blur-sm">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
           </div>
@@ -121,7 +121,7 @@
         </div>
 
         <!-- Card 3 -->
-        <div class="card-gradient-3 rounded-3xl p-8 text-white transform hover:scale-105 transition-all glow-pink">
+        <div class="card-gradient-3 rounded-3xl p-8 text-white transform hover:scale-105 transition-all glow-cyan">
           <div class="w-12 h-12 bg-white/20 rounded-2xl flex items-center justify-center mb-6 backdrop-blur-sm">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
           </div>
@@ -139,7 +139,7 @@
       <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
         {#each universityLogos as university}
           <div class="h-10 flex items-center">
-            <span class="font-bold text-2xl text-gray-400 hover:text-purple-600 transition-colors">{university}</span>
+            <span class="font-bold text-2xl text-gray-400 hover:text-blue-600 transition-colors">{university}</span>
           </div>
         {/each}
       </div>
@@ -152,7 +152,7 @@
       <div class="grid md:grid-cols-2 gap-16 items-center">
         <!-- Content -->
         <div>
-          <div class="inline-block bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-bold mb-6">
+          <div class="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-bold mb-6">
             Voice AI Technology
           </div>
           
@@ -166,7 +166,7 @@
 
           <div class="space-y-6">
             <div class="flex gap-4 items-start">
-              <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center flex-shrink-0">
+              <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center flex-shrink-0">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
               </div>
               <div>
@@ -178,7 +178,7 @@
             </div>
 
             <div class="flex gap-4 items-start">
-              <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-cyan-500 to-emerald-500 flex items-center justify-center flex-shrink-0">
+              <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-cyan-500 to-teal-500 flex items-center justify-center flex-shrink-0">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
               </div>
               <div>
@@ -190,7 +190,7 @@
             </div>
 
             <div class="flex gap-4 items-start">
-              <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-orange-500 to-pink-500 flex items-center justify-center flex-shrink-0">
+              <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-indigo-500 to-blue-500 flex items-center justify-center flex-shrink-0">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
               </div>
               <div>
@@ -205,7 +205,7 @@
 
         <!-- Visual -->
         <div class="relative">
-          <div class="absolute inset-0 bg-gradient-to-br from-purple-500 to-pink-500 rounded-3xl blur-3xl opacity-20"></div>
+          <div class="absolute inset-0 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-3xl blur-3xl opacity-20"></div>
           <div class="relative bg-white rounded-3xl p-8 border-2 border-gray-100 shadow-2xl">
             <img src="/generated/image-a-student-in-a-modern-library-using-a-la-1769124077989-0.webp" alt="Student practicing case" class="w-full h-full object-cover rounded-2xl" />
           </div>
@@ -215,10 +215,10 @@
   </section>
 
   <!-- Testimonial Section -->
-  <section class="py-20 px-6 bg-gradient-to-br from-purple-50 to-pink-50">
+  <section class="py-20 px-6 bg-gradient-to-br from-blue-50 to-cyan-50">
     <div class="max-w-5xl mx-auto">
-      <div class="bg-white rounded-3xl p-10 md:p-16 shadow-2xl border-2 border-purple-100 relative overflow-hidden">
-        <div class="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full blur-3xl opacity-10"></div>
+      <div class="bg-white rounded-3xl p-10 md:p-16 shadow-2xl border-2 border-blue-100 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full blur-3xl opacity-10"></div>
         
         <div class="relative z-10">
           <div class="flex items-center gap-3 mb-8">
@@ -227,7 +227,7 @@
                 <svg class="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
               {/each}
             </div>
-            <span class="text-sm font-bold text-purple-600 uppercase tracking-wider">Wharton MBA</span>
+            <span class="text-sm font-bold text-blue-600 uppercase tracking-wider">Wharton MBA</span>
           </div>
           
           <blockquote class="text-3xl md:text-4xl font-bold leading-tight text-gray-900 mb-10">
@@ -235,7 +235,7 @@
           </blockquote>
           
           <div class="flex items-center gap-4">
-            <img src="https://i.pravatar.cc/100?img=12" alt="Candidate" class="w-16 h-16 rounded-full object-cover border-4 border-purple-100" />
+            <img src="https://i.pravatar.cc/100?img=12" alt="Candidate" class="w-16 h-16 rounded-full object-cover border-4 border-blue-100" />
             <div>
               <div class="font-bold text-lg text-gray-900">Alex Chen</div>
               <div class="text-gray-600">Incoming Associate at MBB</div>
@@ -260,7 +260,7 @@
 
         <!-- Content -->
         <div class="order-1 md:order-2">
-          <div class="inline-block bg-cyan-100 text-cyan-700 px-4 py-2 rounded-full text-sm font-bold mb-6">
+          <div class="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-bold mb-6">
             Performance Analytics
           </div>
           
@@ -274,7 +274,7 @@
 
           <div class="space-y-6">
             <div class="flex gap-4 items-start">
-              <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center flex-shrink-0">
+              <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center flex-shrink-0">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></svg>
               </div>
               <div>
@@ -286,7 +286,7 @@
             </div>
 
             <div class="flex gap-4 items-start">
-              <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-cyan-500 to-emerald-500 flex items-center justify-center flex-shrink-0">
+              <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-cyan-500 to-teal-500 flex items-center justify-center flex-shrink-0">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
               </div>
               <div>
@@ -298,7 +298,7 @@
             </div>
 
             <div class="flex gap-4 items-start">
-              <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-orange-500 to-pink-500 flex items-center justify-center flex-shrink-0">
+              <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-indigo-500 to-blue-500 flex items-center justify-center flex-shrink-0">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
               </div>
               <div>
@@ -318,7 +318,7 @@
   <section class="py-32 px-6 bg-gray-50">
     <div class="max-w-7xl mx-auto">
       <div class="text-center mb-20">
-        <div class="inline-block bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-bold mb-6">
+        <div class="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-bold mb-6">
           Pricing
         </div>
         <h2 class="text-4xl md:text-6xl font-bold mb-6">Choose your plan</h2>
@@ -327,7 +327,7 @@
 
       <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
         <!-- Free -->
-        <div class="bg-white rounded-3xl p-8 border-2 border-gray-200 flex flex-col hover:border-purple-300 transition-all">
+        <div class="bg-white rounded-3xl p-8 border-2 border-gray-200 flex flex-col hover:border-blue-300 transition-all">
           <div class="mb-8">
             <h3 class="text-2xl font-bold text-gray-900 mb-4">Free</h3>
             <div class="flex items-baseline gap-2 mb-4">
@@ -349,8 +349,8 @@
         </div>
 
         <!-- Premium -->
-        <div class="bg-gradient-to-br from-purple-600 to-pink-600 rounded-3xl p-8 flex flex-col relative transform md:scale-105 shadow-2xl glow-purple">
-          <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-orange-500 text-white text-xs font-bold px-6 py-2 rounded-full uppercase tracking-wider shadow-lg">
+        <div class="bg-gradient-to-br from-blue-600 to-cyan-600 rounded-3xl p-8 flex flex-col relative transform md:scale-105 shadow-2xl glow-blue">
+          <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-indigo-500 text-white text-xs font-bold px-6 py-2 rounded-full uppercase tracking-wider shadow-lg">
             Most Popular
           </div>
           <div class="mb-8">
@@ -375,11 +375,11 @@
               <span class="font-medium">24/7 support</span>
             </li>
           </ul>
-          <a href="#" class="w-full py-4 rounded-full bg-white text-purple-600 text-center font-bold hover:bg-gray-50 transition-all shadow-lg">Start premium</a>
+          <a href="#" class="w-full py-4 rounded-full bg-white text-blue-600 text-center font-bold hover:bg-gray-50 transition-all shadow-lg">Start premium</a>
         </div>
 
         <!-- Pro -->
-        <div class="bg-white rounded-3xl p-8 border-2 border-gray-200 flex flex-col hover:border-purple-300 transition-all">
+        <div class="bg-white rounded-3xl p-8 border-2 border-gray-200 flex flex-col hover:border-blue-300 transition-all">
           <div class="mb-8">
             <h3 class="text-2xl font-bold text-gray-900 mb-4">Pro</h3>
             <div class="flex items-baseline gap-2 mb-4">
@@ -424,7 +424,7 @@
         Join students from Harvard, Stanford, and Wharton who are already using CasePrepared to land their dream offers.
       </p>
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-        <a href="#" class="group inline-flex items-center gap-2 bg-white text-purple-600 px-10 py-5 rounded-full font-bold text-lg transition-all hover:scale-105 shadow-2xl">
+        <a href="#" class="group inline-flex items-center gap-2 bg-white text-blue-600 px-10 py-5 rounded-full font-bold text-lg transition-all hover:scale-105 shadow-2xl">
           Start practicing free
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="group-hover:translate-x-1 transition-transform"><path d="m9 18 6-6-6-6"/></svg>
         </a>
@@ -442,7 +442,7 @@
       <div class="grid grid-cols-2 md:grid-cols-6 gap-12 mb-16">
         <div class="col-span-2">
           <a href="/" class="flex items-center gap-2 mb-6">
-            <div class="w-10 h-10 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
+            <div class="w-10 h-10 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" fill="white" opacity="0.3"/>
                 <path d="M12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 15.31 18 12 12 6ZM12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16Z" fill="white"/>

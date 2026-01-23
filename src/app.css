@@ -14,14 +14,14 @@
 	--color-gray-900: #171717;
 	--color-gray-950: #0A0A0A;
 
-	--color-brand-purple: #7C3AED;
-	--color-brand-purple-hover: #6D28D9;
-	--color-brand-purple-light: #A78BFA;
-	--color-brand-pink: #EC4899;
-	--color-brand-pink-hover: #DB2777;
-	--color-brand-orange: #F97316;
+	--color-brand-blue: #2563EB;
+	--color-brand-blue-hover: #1D4ED8;
+	--color-brand-blue-light: #60A5FA;
+	--color-brand-blue-dark: #1E40AF;
+	--color-brand-sky: #0EA5E9;
+	--color-brand-indigo: #4F46E5;
 	--color-brand-cyan: #06B6D4;
-	--color-brand-emerald: #10B981;
+	--color-brand-teal: #14B8A6;
 
 	--font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
 	--font-display: "Space Grotesk", "Inter", ui-sans-serif, system-ui, sans-serif;
